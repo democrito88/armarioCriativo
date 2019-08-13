@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/08/2019, 11:25:56
+    Author     : democrito.rodrigo
+*/
+/*
+Paleta de cores:
+Azul: #3399ff
+Laranja: #ff3333;
+*/
+/*@font-face{
+    font-family:; 
+    src:url('');
+}*/
+.jumbotron{
+    background-color: #ff3333 !important;
+    color: white;
+    text-align: center;
+}
+nav{
+    align-items: center !important;
+}
+section{
+    padding: 5% !important;
+}
+section h2{
+    text-align: center;
+}
+.sessao-branca{
+    background-color: white;
+    color: #ff3333;
+}
+.sessao-laranja{
+    background-color: #ff3333;
+    color: white;
+}
+.quem-somos{
+    border-radius: 50%;
+}
+.rede-social{
+    height: 40px;
+    align-self: center;
+    /*border-radius: 25px;*/
+    background-color: white;
+    margin: 0 10%;
+    padding-right: 3px;
+    color: black;
+}
+.rede-social-icone{
+    font-size: 40px;
+    /*border-radius: 50%;*/
+    float: left;
+}
+.rede-social-endereco{
+    float: right;
+    margin-top: 5px;
+}
+.fa-facebook-f{
+    background-color: #0056b3;
+    color: white;
+}
+.fa-instagram{
+    background-color: #990099;
+    color: white;
+}
+.fa-twitter{
+    background-color: #3399ff;
+    color: white;
+}
