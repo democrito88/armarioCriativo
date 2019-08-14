@@ -23,25 +23,28 @@ Rosa: #de5978;
   src: url('https://fonts.googleapis.com/css?family=Dynalight');
 }
 .jumbotron{
-    background-color: #de5978 !important;
-    color: #abadb9;
+    background-image: url(../img/brecho-arara.jpg);
+    /*background-color: #de5978 !important;*/
+    background-color: rgba(222, 89, 120, 0.5);
+    color: white;
     text-align: center;
     font-family: 'Dynalight', Arial;
 }
 .titulo1{
-    font-size: 80px;
+    font-size: 120px;
     font-weight: lighter;
+    color: #abadb9;
 }
 .titulo2{
-    font-size: 80px;
+    font-size: 120px;
     font-weight: lighter;
     color: rgba(255, 255, 255, 0.85) !important;
     z-index: 1 !important;
-    margin-top: -135px;
-    margin-left: 5px;
+    margin-top: -195px;
+    margin-left: 8px;
 }
 .subtitulo{
-    font-size: 40px;
+    font-size: 80px;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Dynalight', Arial;
