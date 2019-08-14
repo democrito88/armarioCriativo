@@ -10,39 +10,70 @@ and open the template in the editor.
 /*
 Paleta de cores:
 Azul: #3399ff
+Azul claro: #abadb9;
 Laranja: #ff3333;
+Rosa: #de5978;
 */
 /*@font-face{
     font-family:; 
     src:url('');
 }*/
 @font-face {
-  font-family: 'Dancing Script';
-  src: url('https://fonts.googleapis.com/css?family=Dancing Script');
+  font-family: 'Dynalight';
+  src: url('https://fonts.googleapis.com/css?family=Dynalight');
 }
 .jumbotron{
-    background-color: #ff3333 !important;
-    color: white;
+    background-color: #de5978 !important;
+    color: #abadb9;
     text-align: center;
-    font-family: 'Dancing Script', Arial;
-    font-size: 60px !important;
+    font-family: 'Dynalight', Arial;
+}
+.titulo1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+.titulo2{
+    font-size: 80px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.85) !important;
+    z-index: 1 !important;
+    margin-top: -135px;
+    margin-left: 5px;
+}
+.subtitulo{
+    font-size: 40px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Dynalight', Arial;
+    font-weight: bold;
+    color: #abadb9;
 }
 nav{
     align-items: center !important;
+    padding: 10px 0;
+    color: white !important;
+    text-decoration: none !important;
 }
 section{
     padding: 5% !important;
 }
-section h2{
+section h1{
     text-align: center;
 }
 .sessao-branca{
     background-color: white;
-    color: #ff3333;
+    color: #de5978;
 }
-.sessao-laranja{
-    background-color: #ff3333;
+.sessao-rosa{
+    background-color: #de5978;
     color: white;
+}
+.botao-carrossel{
+    background-color: #de5978 !important;
+    color: white !important;
+}
+.fa-chevron-left, .fa-chevron-right{
+    color: #abadb9;
 }
 .quem-somos{
     border-radius: 50%;
@@ -50,11 +81,12 @@ section h2{
 .rede-social{
     height: 40px;
     align-self: center;
-    /*border-radius: 25px;*/
+    border-radius: 25px;
     background-color: white;
     margin: 0 10%;
-    padding-right: 3px;
+    padding-right: 10px;
     color: black;
+    width: 160px;
 }
 .rede-social-icone{
     font-size: 40px;
@@ -65,15 +97,23 @@ section h2{
     float: right;
     margin-top: 5px;
 }
-.fa-facebook-f{
-    background-color: #0056b3;
-    color: white;
+.fa-facebook{
+    border-radius: 50%;
+    padding: 0px;
+    background-color: white;
+    color: #0056b3;
+    width: 80px;
 }
 .fa-instagram{
+    border-radius: 50%;
+    padding: 5px;
     background-color: #990099;
     color: white;
+    width: 40px;
 }
 .fa-twitter{
+    border-radius: 50%;
+    padding: 10px;
     background-color: #3399ff;
     color: white;
 }
